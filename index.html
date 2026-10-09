@@ -77,8 +77,8 @@ h1,.lead,.stats{text-shadow:0 2px 24px rgba(0,0,0,.6)}
 .stats span{font-size:13px;color:var(--muted)}
 
 .banner{margin:0;border-radius:28px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 90px -30px var(--b)}
-.banner img{display:block;width:100%;height:clamp(260px,42vw,520px);object-fit:cover;object-position:center 55%}
-.logo img{width:30px;height:30px;border-radius:9px;object-fit:cover;object-position:left center}
+.banner img{display:block;width:100%;height:auto}
+.logo img{width:32px;height:32px;border-radius:9px;object-fit:cover}
 /* sections */
 section{padding:90px 0}
 .eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--a);font-weight:600}
@@ -202,7 +202,7 @@ input,select,textarea{font-size:16px}
   .chips{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;margin:16px -18px 0;padding:2px 18px 6px;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
   .chip{flex:none;min-height:42px;scroll-snap-align:start}
   .banner{border-radius:22px}
-  .banner img{height:clamp(200px,60vw,360px)}
+  
   footer{padding-bottom:calc(110px + env(safe-area-inset-bottom));flex-direction:column;text-align:center;align-items:center}
   .callbar{left:max(12px,env(safe-area-inset-left));right:max(12px,env(safe-area-inset-right));bottom:calc(12px + env(safe-area-inset-bottom))}
   .callbar .btn{box-shadow:0 10px 30px rgba(0,0,0,.5)}
@@ -244,7 +244,7 @@ input,select,textarea{font-size:16px}
 </header>
 
 <div class="wrap">
-  <figure class="banner rv"><img src="banner.jpg" alt="Reggie's Restoration Service logo in electric cyan, warm sunset and cool arctic colorways" loading="lazy"></figure>
+  <figure class="banner rv"><img src="banner.jpg" alt="Reggie's Restoration Service logo: a glowing house outline with a water droplet" loading="lazy"></figure>
 </div>
 
 <section id="services">
